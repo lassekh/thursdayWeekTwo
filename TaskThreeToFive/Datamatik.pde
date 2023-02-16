@@ -11,7 +11,7 @@ void setup() {
   println(tOne.name);
   
   boolean isCM = isClassmates(sOne, sTwo);
-  if (isCM == true) {
+  if (isCM) {
   println(sOne.name + " and " + sTwo.name + " are classmates");
   } else {
     println(sOne.name + " and " + sTwo.name + " are NOT classmates");
